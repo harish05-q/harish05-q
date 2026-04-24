@@ -1,19 +1,19 @@
 <h1 align="center">Hi 👋, I'm Harish Pal</h1>
-<h3 align="center">AI Engineer | Financial ML | System Design | Building Research-Grade ML Systems</h3>
+<h3 align="center">AI Engineer | Financial ML | System Design | Building Softwares</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=harish05-q&label=Profile%20views&color=0e75b6&style=flat" alt="harish05-q" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=harish05-q" alt="harish05-q" /></a> </p>
 
-- 🔭 I’m currently working on **Structural Cash-Flow Stress Model for SME Collapse Prediction**
+- 🔭 I’m currently working on **GenAI + Systems Projects**
 
 - 🌱 I’m currently learning **system design, generative AI, agentic AI**
 
-- 👯 I’m looking to collaborate on **AI Systems / Quant Finance / LLM Applications**
+- 👯 I’m looking to collaborate on **AI Systems / Quant Finance / LLM Applications / Backend Systems**
 
 - 💬 Ask me about **AI Systems, Financial ML, Backend Engineering**
 
-- 📫 How to reach me **harish67@gmail.com**
+- 📫 How to reach me **harishpal0501@gmail.com**
 
 - ⚡ Fun fact **More interested in why models fail than when they succeed**
 
