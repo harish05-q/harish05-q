@@ -37,32 +37,7 @@ $ cat about.json
 }
 ```
 
----
 
-## ⚡ Featured Projects
-
-> Three things I'm most proud of — click to explore.
-
-### 🧠 [QuantMind — AI-Powered Financial Forecasting Engine](https://github.com/harish05-q)
-> Financial ML system combining time-series models with LLM-based market sentiment analysis for predictive alpha generation.
-
-`Python` `TensorFlow` `FastAPI` `Redis` `PostgreSQL`
-
----
-
-### 🤖 [AgentForge — Multi-Agent Orchestration Framework](https://github.com/harish05-q)
-> Lightweight framework for building, chaining, and monitoring autonomous LLM agents with tool-use and memory support.
-
-`Python` `LangChain` `Docker` `Redis` `LLM APIs`
-
----
-
-### 🏗️ [SysCore — Distributed Backend Boilerplate](https://github.com/harish05-q)
-> Production-grade backend template with microservices, event queues, auth, caching, and observability baked in.
-
-`Node.js` `Django` `PostgreSQL` `Redis` `Docker` `AWS`
-
----
 
 ## 🛠 Tech Stack
 
