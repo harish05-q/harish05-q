@@ -1,171 +1,110 @@
-<h1 align="center">Hi 👋, I'm Harish Pal</h1>
-<h3 align="center">AI Engineer | Financial ML | System Design | Building Softwares</h3>
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=harish05-q&label=Profile%20views&color=0e75b6&style=flat" alt="harish05-q" /> </p>
+```
+██╗  ██╗ █████╗ ██████╗ ██╗███████╗██╗  ██╗    ██████╗  █████╗ ██╗
+██║  ██║██╔══██╗██╔══██╗██║██╔════╝██║  ██║    ██╔══██╗██╔══██╗██║
+███████║███████║██████╔╝██║███████╗███████║    ██████╔╝███████║██║
+██╔══██║██╔══██║██╔══██╗██║╚════██║██╔══██║    ██╔═══╝ ██╔══██║██║
+██║  ██║██║  ██║██║  ██║██║███████║██║  ██║    ██║     ██║  ██║███████╗
+╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝    ╚═╝     ╚═╝  ╚═╝╚══════╝
+```
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=harish05-q" alt="harish05-q" /></a> </p>
+**`AI Engineer · Financial ML · System Design · Building Softwares`**
 
-- 🔭 I’m currently working on **GenAI + Systems Projects**
+[![Profile Views](https://komarev.com/ghpvc/?username=harish05-q&color=0e75b6&style=flat&label=Profile+Views)](https://github.com/harish05-q)
+[![Email](https://img.shields.io/badge/harishpal0501@gmail.com-0078D4?style=flat&logo=microsoft-outlook&logoColor=white)](mailto:harishpal0501@gmail.com)
 
-- 🌱 I’m currently learning **system design, generative AI, agentic AI**
+</div>
 
-- 👯 I’m looking to collaborate on **AI Systems / Quant Finance / LLM Applications / Backend Systems**
+---
 
-- 💬 Ask me about **AI Systems, Financial ML, Backend Engineering**
+## whoami
 
-- 📫 How to reach me **harishpal0501@gmail.com**
+```bash
+$ cat about.json
+```
 
-- ⚡ Fun fact **More interested in why models fail than when they succeed**
+```json
+{
+  "name": "Harish Pal",
+  "role": "AI Engineer",
+  "focus": ["Generative AI", "Financial ML", "Agentic Systems", "Backend Engineering"],
+  "currently_building": "GenAI + Systems Projects",
+  "currently_learning": ["System Design", "Generative AI", "Agentic AI"],
+  "open_to_collaborate": ["AI Systems", "Quant Finance", "LLM Applications", "Backend Systems"],
+  "fun_fact": "More interested in why models fail than when they succeed",
+  "ask_me_about": ["AI Systems", "Financial ML", "Backend Engineering"]
+}
+```
 
-<h3>Connect with me:</h3>
+---
 
-<table>
-<tr>
-<td>
-<a href="https://linkedin.com/in/harish0501" target="blank">
-<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40"/>
-</a>
-</td>
+## ⚡ Featured Projects
 
-<td>
-<a href="https://www.codechef.com/users/harish_pal_67" target="blank">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" height="30" width="40"/>
-</a>
-</td>
+> Three things I'm most proud of — click to explore.
 
-<td>
-<a href="https://codeforces.com/profile/exiled_67" target="blank">
-<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" height="30" width="40"/>
-</a>
-</td>
+### 🧠 [QuantMind — AI-Powered Financial Forecasting Engine](https://github.com/harish05-q)
+> Financial ML system combining time-series models with LLM-based market sentiment analysis for predictive alpha generation.
 
-<td>
-<a href="https://www.leetcode.com/harish_60" target="blank">
-<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" height="30" width="40"/>
-</a>
-</td>
+`Python` `TensorFlow` `FastAPI` `Redis` `PostgreSQL`
 
-</tr>
-</table>
+---
 
-<h3 align="left">Languages and Tools:</h3>
+### 🤖 [AgentForge — Multi-Agent Orchestration Framework](https://github.com/harish05-q)
+> Lightweight framework for building, chaining, and monitoring autonomous LLM agents with tool-use and memory support.
 
-<!-- ================= FRONTEND ================= -->
-<h4>Frontend</h4>
+`Python` `LangChain` `Docker` `Redis` `LLM APIs`
 
-<table>
-<tr>
-<td><a href="https://angular.io"><img src="https://angular.io/assets/images/logos/angular/angular.svg" width="40"/></a></td>
-<td><a href="https://reactjs.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40"/></a></td>
-<td><a href="https://getbootstrap.com"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" width="40"/></a></td>
-<td><a href="https://tailwindcss.com/"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="40"/></a></td>
-<td><a href="https://www.w3.org/html/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="40"/></a></td>
-<td><a href="https://www.w3schools.com/css/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="40"/></a></td>
-</tr>
+---
 
-<tr>
-<td><a href="https://sass-lang.com"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" width="40"/></a></td>
-<td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40"/></a></td>
-<td><a href="https://www.typescriptlang.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40"/></a></td>
-<td><a href="https://redux.js.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" width="40"/></a></td>
-<td><a href="https://www.chartjs.org"><img src="https://www.chartjs.org/media/logo-title.svg" width="40"/></a></td>
-<td><a href="https://www.figma.com/"><img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" width="40"/></a></td>
-</tr>
-</table>
+### 🏗️ [SysCore — Distributed Backend Boilerplate](https://github.com/harish05-q)
+> Production-grade backend template with microservices, event queues, auth, caching, and observability baked in.
 
-<!-- ================= BACKEND ================= -->
-<h4>Backend</h4>
+`Node.js` `Django` `PostgreSQL` `Redis` `Docker` `AWS`
 
-<table>
-<tr>
-<td><a href="https://nodejs.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="40"/></a></td>
-<td><a href="https://expressjs.com"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" width="40"/></a></td>
-<td><a href="https://www.djangoproject.com/"><img src="https://cdn.worldvectorlogo.com/logos/django.svg" width="40"/></a></td>
-<td><a href="https://www.php.net"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" width="40"/></a></td>
-<td><a href="https://www.java.com"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40"/></a></td>
-</tr>
+---
 
-<tr>
-<td><a href="https://graphql.org"><img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" width="40"/></a></td>
-<td><a href="https://kafka.apache.org/"><img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" width="40"/></a></td>
-<td><a href="https://www.cprogramming.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40"/></a></td>
-<td><a href="https://www.w3schools.com/cpp/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40"/></a></td>
-<td></td>
-</tr>
-</table>
+## 🛠 Tech Stack
 
-<!-- ================= DATABASE ================= -->
-<h4>Database</h4>
+**AI / ML**
+`Python` `TensorFlow` `PyTorch` `scikit-learn` `LangChain` `Hugging Face` `Pandas` `OpenCV`
 
-<table>
-<tr>
-<td><a href="https://www.mysql.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="40"/></a></td>
-<td><a href="https://www.postgresql.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" width="40"/></a></td>
-<td><a href="https://www.mongodb.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" width="40"/></a></td>
-<td><a href="https://cassandra.apache.org/"><img src="https://www.vectorlogo.zone/logos/apache_cassandra/apache_cassandra-icon.svg" width="40"/></a></td>
-<td><a href="https://redis.io"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" width="40"/></a></td>
-</tr>
+**Backend**
+`Node.js` `Django` `FastAPI` `GraphQL` `PHP` `Java` `C` `C++`
 
-<tr>
-<td><a href="https://www.sqlite.org/"><img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" width="40"/></a></td>
-<td><a href="https://www.elastic.co"><img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" width="40"/></a></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</table>
+**Frontend**
+`React` `TypeScript` `JavaScript` `Tailwind CSS` `HTML5` `CSS3` `Sass` `Figma`
 
-<!-- ================= AI / ML ================= -->
-<h4>AI / ML</h4>
+**Database**
+`PostgreSQL` `MySQL` `MongoDB` `Redis` `Sequelize`
 
-<table>
-<tr>
-<td><a href="https://www.python.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40"/></a></td>
-<td><a href="https://pandas.pydata.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="40"/></a></td>
-<td><a href="https://scikit-learn.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="40"/></a></td>
-<td><a href="https://www.tensorflow.org"><img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" width="40"/></a></td>
-<td><a href="https://pytorch.org/"><img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" width="40"/></a></td>
-</tr>
+**DevOps & Tools**
+`Docker` `Linux` `Git` `Firebase` `Heroku` `Postman`
 
-<tr>
-<td><a href="https://opencv.org/"><img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" width="40"/></a></td>
-<td><a href="https://seaborn.pydata.org/"><img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" width="40"/></a></td>
-<td><a href="https://www.langchain.com/"><img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/langchain.svg" width="40"/></a></td>
-<td><a href="https://huggingface.co/"><img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/huggingface.svg" width="40"/></a></td>
-<td><a href="https://github.com/facebookresearch/faiss"><img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/facebook.svg" width="40"/></a></td>
-</tr>
+---
 
-<tr>
-<td><a href="https://www.nltk.org/"><img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/python.svg" width="40"/></a></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</table>
+## 📊 Stats
 
-<!-- ================= DEVOPS / TOOLS ================= -->
-<h4>DevOps & Tools</h4>
+<div align="center">
 
-<table>
-<tr>
-<td><a href="https://www.docker.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="40"/></a></td>
-<td><a href="https://git-scm.com/"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40"/></a></td>
-<td><a href="https://www.linux.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40"/></a></td>
-<td><a href="https://postman.com"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="40"/></a></td>
-<td><a href="https://firebase.google.com/"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" width="40"/></a></td>
-</tr>
+[![GitHub Streak](https://streak-stats.demolab.com?user=harish05-q&theme=dark&hide_border=true&background=0D1117&ring=3FB950&fire=3FB950&currStreakLabel=3FB950)](https://git.io/streak-stats)
 
-<tr>
-<td><a href="https://heroku.com"><img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" width="40"/></a></td>
-<td><a href="https://zapier.com"><img src="https://www.vectorlogo.zone/logos/zapier/zapier-icon.svg" width="40"/></a></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</table>
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=harish05-q&show_icons=true&locale=en&layout=compact" alt="harish05-q" /></p>
+[![Harish's GitHub Stats](https://github-readme-stats.vercel.app/api?username=harish05-q&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&icon_color=3FB950&title_color=3FB950)](https://github.com/harish05-q)
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=harish05-q&show_icons=true&locale=en" alt="harish05-q" /></p>
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=harish05-q&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=3FB950)](https://github.com/harish05-q)
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=harish05-q&" alt="harish05-q" /></p>
+</div>
+
+---
+
+## 🤝 Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/harish05-q)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/harish05-q)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harishpal0501@gmail.com)
+
+*"More interested in why models fail than when they succeed."*
+
+</div>
