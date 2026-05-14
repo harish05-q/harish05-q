@@ -18,7 +18,7 @@ harish05-q
 
 ```
 ████████████████████████████████████████████████████████████████████████
-█  HARISH PAL — AI Engineer & Financial ML Specialist                   █
+█  HARISH PAL — AI Engineer & Financial Systems Enthusiast              █
 █  Status: Building GenAI + Systems Projects                            █
 █  Learning: System Design, Generative AI, Agentic AI                   █
 █  Open to: AI Systems, Quant Finance, LLM Apps, Backend Systems        █
