@@ -37,7 +37,28 @@ Fun Fact: "More interested in why models fail than when they succeed"
 
 ## `📋 Featured Projects`
 
-### `1. 📈 MarketIQ — AI-Native Real-Time Market Intelligence Platform`
+### `1. 🔬 CodeAutopsy — AI-Powered Codebase Reverse Engineering Platform`
+
+```
+████████████████████████████████████████████████████████████████████████
+AI system that reverse-engineers GitHub repositories into architecture
+documentation, dependency graphs, call graphs, and semantic code insights
+with explainable bug hotspot detection and anti-pattern analysis.
+
+Stack: FastAPI | Tree-sitter | NetworkX | FAISS | sentence-transformers | Groq | Next.js | React Flow
+████████████████████████████████████████████████████████████████████████
+```
+
+**Key Features:**
+- Multi-stage analysis: AST parsing → graph construction → semantic search → architectural inference
+- Deterministic static analysis combined with Groq-hosted LLMs
+- Explainable module summaries, bug hotspot detection, anti-pattern & risk reports
+- React Flow dashboard for visualizing repo structure and code relationships interactively
+- Handles large codebases with semantic chunking and FAISS vector search
+
+---
+
+### `2. 📈 MarketIQ — AI-Native Real-Time Market Intelligence Platform`
 
 ```
 ████████████████████████████████████████████████████████████████████████
@@ -58,26 +79,6 @@ Stack: Python | FastAPI | Kafka | Qdrant | LangChain | Groq | Next.js | Tailwind
 
 ---
 
-### `2. 🔬 CodeAutopsy — AI-Powered Codebase Reverse Engineering Platform`
-
-```
-████████████████████████████████████████████████████████████████████████
-AI system that reverse-engineers GitHub repositories into architecture
-documentation, dependency graphs, call graphs, and semantic code insights
-with explainable bug hotspot detection and anti-pattern analysis.
-
-Stack: FastAPI | Tree-sitter | NetworkX | FAISS | sentence-transformers | Groq | Next.js | React Flow
-████████████████████████████████████████████████████████████████████████
-```
-
-**Key Features:**
-- Multi-stage analysis: AST parsing → graph construction → semantic search → architectural inference
-- Deterministic static analysis combined with Groq-hosted LLMs
-- Explainable module summaries, bug hotspot detection, anti-pattern & risk reports
-- React Flow dashboard for visualizing repo structure and code relationships interactively
-- Handles large codebases with semantic chunking and FAISS vector search
-
----
 
 ### `3. 🤖 CodeDuo — Agentic Developer Productivity & Code Intelligence Platform`
 
