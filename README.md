@@ -49,38 +49,11 @@ Stack: FastAPI | Tree-sitter | NetworkX | FAISS | sentence-transformers | Groq |
 ████████████████████████████████████████████████████████████████████████
 ```
 
-**Key Features:**
-- Multi-stage analysis: AST parsing → graph construction → semantic search → architectural inference
-- Deterministic static analysis combined with Groq-hosted LLMs
-- Explainable module summaries, bug hotspot detection, anti-pattern & risk reports
-- React Flow dashboard for visualizing repo structure and code relationships interactively
-- Handles large codebases with semantic chunking and FAISS vector search
-
----
-
-### `2. 📈 MarketIQ — AI-Native Real-Time Market Intelligence Platform`
-
-```
-████████████████████████████████████████████████████████████████████████
-Real-time market intelligence system that ingests financial news from
-multiple sources and converts unstructured text into structured,
-queryable market context with explainable AI-generated briefings.
-
-Stack: Python | FastAPI | Kafka | Qdrant | LangChain | Groq | Next.js | Tailwind CSS
-████████████████████████████████████████████████████████████████████████
-```
-
-**Key Features:**
-- Event-driven ingestion pipeline with Kafka for streaming & continuous indexing
-- Semantic retrieval & RAG workflows using transformer embeddings + Qdrant
-- NLP workflows: event extraction, sentiment analysis, impact scoring
-- Temporal tracking across sectors and market narratives
-- Interactive Next.js frontend with AI briefings linked to source documents
 
 ---
 
 
-### `3. 🤖 CodeDuo — Agentic Developer Productivity & Code Intelligence Platform`
+### `2. 🤖 CodeDuo — Agentic Developer Productivity & Code Intelligence Platform`
 
 ```
 ████████████████████████████████████████████████████████████████████████
@@ -91,13 +64,6 @@ sandboxed Python execution and modular pipeline stages.
 Stack: n8n | LLM Orchestration | Stack Overflow API | Python | Chat Workflows
 ████████████████████████████████████████████████████████████████████████
 ```
-
-**Key Features:**
-- Modular pipeline: query understanding → search-intent → retrieval → summarization → response
-- Safe Python execution with sandboxed runtime, stdout/stderr capture & timeout safeguards
-- Markdown-based response generation with source attribution
-- Extensible architecture: planned GitHub retrieval, conversational memory & multi-tool orchestration
-- Designed for automation pipelines and chat interface integration
 
 ---
 
