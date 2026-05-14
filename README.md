@@ -236,7 +236,7 @@ Stack: n8n | LLM Orchestration | Stack Overflow API | Python | Chat Workflows
 ✓ Backend Engineering & System Design
 ✓ LLM Architecture & Fine-tuning
 ✓ Production Scaling & DevOps
-✓ Why models fail (more than when they succeed!)
+✓ Why models fail !!!!
 ```
 
 ---
@@ -251,7 +251,6 @@ Stack: n8n | LLM Orchestration | Stack Overflow API | Python | Chat Workflows
 Email:    harishpal0501@gmail.com
 GitHub:   github.com/harish05-q
 LinkedIn: linkedin.com/in/harish05-q
-Website:  [your-portfolio.com]
 ```
 
 ---
@@ -301,38 +300,6 @@ Website:  [your-portfolio.com]
 └─────────────────────────────────────────────────────────┘
 ```
 
----
-
-## `⚙️ Development Workflow`
-
-```bash
-~$ echo "my typical day..." && cat workflow.sh
-```
-
-```bash
-#!/bin/bash
-
-# Morning: Check Kafka consumer lag & pipeline health
-watch 'kafka-consumer-groups.sh --describe --group marketiq-ingestor'
-
-# Mid-morning: Iterate on RAG retrieval quality
-python eval/retrieval_benchmark.py --dataset finance_news --top-k 5
-
-# Afternoon: AST parsing improvements for CodeAutopsy
-git checkout -b feature/tree-sitter-python-callgraph
-# → Parse → Build graph → Run semantic diff → PR
-
-# Evening: Tune LLM orchestration in CodeDuo
-n8n import:workflow --input workflows/codeduo-v2.json
-
-# Before sleep: Ship & observe
-docker compose up -d && tail -f logs/groq-api-calls.log
-
-echo "Another day, another model to autopsy. 🔬"
-```
-
----
-
 ## `🔬 Why I'm Obsessed With Model Failures`
 
 ```python
@@ -358,26 +325,7 @@ class ModelDebugger:
 #  It's understanding what makes the 1% fail."
 ```
 
----
 
-## `🏆 Achievements`
-
-```bash
-~$ cat achievements.log
-```
-
-```
-[★] LeetCode: 600+ DSA problems solved
-[★] LeetCode Contest Rating: 1800+
-[★] Top 10 Finalist — HackO'Clock National Hackathon (120+ teams)
-[★] CGPA: 8.93 / 10 — B.Tech CSE-AI @ NIET
-[★] Internship: Python Developer @ LetsGrowMore (Jul–Aug 2024)
-    └─ Built Pandas automation scripts for data transformation workflows
-    └─ Implemented validation & logging for reliable data processing
-    └─ Contributed to Django backend utilities & API development
-```
-
----
 
 ## `📈 Growth Trajectory`
 
@@ -404,10 +352,8 @@ Next Chapter:    Production AI Systems + Open Source
 | Resource | Link |
 |----------|------|
 | 💻 **GitHub** | github.com/harish05-q |
-| 🔗 **LinkedIn** | linkedin.com/in/harish05-q |
+| 🔗 **LinkedIn** | linkedin.com/in/harish0501 |
 | 📧 **Email** | harishpal0501@gmail.com |
-| 🏗️ **Portfolio** | [your-website.com] |
-| 📝 **Blog** | [your-blog.com] |
 
 ---
 
@@ -434,16 +380,3 @@ Status: 🟢 Open to opportunities
 
 </div>
 ```
-
-This is ready to copy-paste directly into your GitHub README.md! 
-
-**Customization checklist before publishing:**
-
-- [ ] Replace `[your-portfolio.com]` and `[your-blog.com]` with actual links
-- [ ] Update the 3 featured projects with your **real** project names and GitHub links
-- [ ] Adjust the tech stack percentages to match your actual proficiency
-- [ ] Confirm LinkedIn URL
-- [ ] Add your website/portfolio link if you have one
-- [ ] Update the "Last Updated" date
-
-The style keeps everything clean, terminal-focused, and visually interesting without overusing badges or icons. It reads like your system/process, which is way more memorable than a wall of logos. 🚀
