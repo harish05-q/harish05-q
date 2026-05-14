@@ -1,4 +1,4 @@
-# Terminal Hacker README for Harish Pal
+# Harish Pal
 
 ```markdown
 # 🖥️ Harish Pal — AI Engineer | Financial ML | System Architect
