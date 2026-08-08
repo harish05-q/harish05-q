@@ -1,349 +1,107 @@
-# Harish Pal
+<div align="center">
 
-```markdown
-# 🖥️ Harish Pal — AI Engineer | Financial ML | System Architect
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f1a,50:1a1a3e,100:2563eb&height=180&section=header&text=Harish%20Pal&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20%7C%20Financial%20ML%20%7C%20System%20Architect&descAlignY=58&descColor=93c5fd" width="100%"/>
 
-> *Building intelligent systems at the intersection of AI, Finance, and Infrastructure*
-
----
-
-## `whoami`
-
-```bash
-~/harish05-q $ whoami
-harish05-q
-
-~/harish05-q $ cat ~/.profile
-```
-
-```
-████████████████████████████████████████████████████████████████████████
-█  HARISH PAL — AI Engineer & Financial Systems Enthusiast              █
-█  Status: Building GenAI + Systems Projects                            █
-█  Learning: System Design, Generative AI, Agentic AI                   █
-█  Open to: AI Systems, Quant Finance, LLM Apps, Backend Systems        █
-████████████████████████████████████████████████████████████████████████
-
-Profile Views: 486
-Repositories: 38+
-Contributions: 82
-Current Streak: 1 day
-Longest Streak: 5 days
-
-Fun Fact: "More interested in why models fail than when they succeed"
-```
-
----
-
-## `📋 Featured Projects`
-
-### `1. 🔬 CodeAutopsy — AI-Powered Codebase Reverse Engineering Platform`
-
-```
-████████████████████████████████████████████████████████████████████████
-AI system that reverse-engineers GitHub repositories into architecture
-documentation, dependency graphs, call graphs, and semantic code insights
-with explainable bug hotspot detection and anti-pattern analysis.
-
-Stack: FastAPI | Tree-sitter | NetworkX | FAISS | sentence-transformers | Groq | Next.js | React Flow
-████████████████████████████████████████████████████████████████████████
-```
-
-
----
-
-
-### `2. 🤖 CodeDuo — Agentic Developer Productivity & Code Intelligence Platform`
-
-```
-████████████████████████████████████████████████████████████████████████
-Agentic workflow system that automates technical problem-solving and
-developer assistance through multi-step LLM orchestration with safe
-sandboxed Python execution and modular pipeline stages.
-
-Stack: n8n | LLM Orchestration | Stack Overflow API | Python | Chat Workflows
-████████████████████████████████████████████████████████████████████████
-```
-
----
-
-## `🛠️ Tech Stack — Full Breakdown`
-
-```bash
-~$ cat skills.sh
-```
-
-### **AI / ML**
-```
-▶ Python          ████████████████████ 95%
-▶ TensorFlow      ████████████████░░░░ 85%
-▶ PyTorch         ████████████████░░░░ 85%
-▶ scikit-learn    ███████████████░░░░░ 80%
-▶ LangChain       ████████████████░░░░ 85%
-▶ Hugging Face    ███████████████░░░░░ 80%
-▶ Pandas          ████████████████████ 90%
-▶ OpenCV          ████████████░░░░░░░░ 70%
-```
-
-### **Backend**
-```
-▶ Node.js         ████████████████░░░░ 85%
-▶ Django          ████████████████░░░░ 85%
-▶ FastAPI         ████████████████░░░░ 85%
-▶ GraphQL         ███████████░░░░░░░░░ 65%
-▶ Java            ██████████░░░░░░░░░░ 60%
-▶ C++             █████████░░░░░░░░░░░ 55%
-▶ PHP             ████████░░░░░░░░░░░░ 50%
-```
-
-### **Frontend**
-```
-▶ React           ████████████████░░░░ 85%
-▶ TypeScript      ███████████████░░░░░ 80%
-▶ JavaScript      ████████████████░░░░ 85%
-▶ Tailwind CSS    ███████████████░░░░░ 80%
-▶ HTML5/CSS3      ████████████████░░░░ 85%
-▶ Sass            ███████████░░░░░░░░░ 70%
-▶ Figma           ███████████░░░░░░░░░ 70%
-```
-
-### **Database & Caching**
-```
-▶ PostgreSQL      ████████████████░░░░ 85%
-▶ MySQL           ████████████████░░░░ 85%
-▶ MongoDB         ███████████████░░░░░ 80%
-▶ Redis           ████████████████░░░░ 85%
-▶ Sequelize ORM   ███████████░░░░░░░░░ 70%
-```
-
-### **DevOps & Tools**
-```
-▶ Docker          ████████████████░░░░ 85%
-▶ Linux/Unix      ████████████████░░░░ 85%
-▶ Git             ████████████████████ 95%
-▶ AWS             ███████████████░░░░░ 80%
-▶ GitHub Actions  ████████████░░░░░░░░ 75%
-▶ Kubernetes      ██████████░░░░░░░░░░ 60%
-▶ Firebase        ███████████░░░░░░░░░ 70%
-▶ Heroku          ████████████░░░░░░░░ 75%
-▶ Postman         ████████████████░░░░ 85%
-```
-
----
-
-## `📊 GitHub Stats`
-
-```bash
-~$ git log --oneline | head -20
-```
-
-```
-[+] Total Contributions (Jun 11, 2024 - Present): 82
-[+] Current Streak: 1 day
-[+] Longest Streak: 5 days (Dec 15, 2025 - Dec 19, 2025)
-[+] Repositories: 38+
-[+] Profile Views: 486
-[+] Badge: Ultra Repo Creator (38+ repositories)
-[+] Badge: Middle Committer (46+ commits)
-[+] Badge: Junior Dev (7pt experience)
-[+] Badge: First Star (2pt stars)
-```
-
----
-
-## `🎯 What I'm Currently Working On`
-
-```bash
-~$ cat current-projects.md
-```
-
-```
-▶ GenAI + Systems Projects
-  └─ Building LLM-powered tools with production-ready infrastructure
-  └─ Focus: system design, scaling, and failure analysis
-
-▶ System Design & Architecture
-  └─ Deep dive into distributed systems patterns
-  └─ High-performance backend optimization
-
-▶ Generative AI & Agentic Systems
-  └─ Multi-agent orchestration frameworks
-  └─ Advanced prompt engineering and fine-tuning
-
-▶ Quantitative Finance Integration
-  └─ ML-driven trading strategies
-  └─ Risk modeling and portfolio optimization
-```
-
----
-
-## `🤝 Looking to Collaborate On`
-
-```bash
-~$ cat collab-interests.json
-```
-
-```json
-[
-  "AI Systems & LLM Applications",
-  "Quantitative Finance & Algorithmic Trading",
-  "Distributed Backend Systems",
-  "Production ML Infrastructure",
-  "Open Source AI/ML Projects"
-]
-```
-
----
-
-## `💬 Ask Me About`
-
-```
-✓ AI Systems & Machine Learning
-✓ Financial ML & Quantitative Analysis
-✓ Backend Engineering & System Design
-✓ LLM Architecture & Fine-tuning
-✓ Production Scaling & DevOps
-✓ Why models fail !!!!
-```
-
----
-
-## `📬 Get In Touch`
-
-```bash
-~$ contact-me
-```
-
-```
-Email:    harishpal0501@gmail.com
-GitHub:   github.com/harish05-q
-LinkedIn: linkedin.com/in/harish05-q
-```
-
----
-
-## `🎨 Stack Visualization`
-
-### **Architecture I Build**
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                                                         │
-│  🎯 LLM / Generative AI                                │
-│  ├─ OpenAI / Anthropic APIs                            │
-│  ├─ Fine-tuned Models                                  │
-│  └─ RAG Systems                                         │
-│                                                         │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│  🤖 Agentic Layer (LangChain / AgentForge)             │
-│  ├─ Tool Use & Function Calling                        │
-│  ├─ Memory Management                                  │
-│  └─ Multi-Agent Orchestration                          │
-│                                                         │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│  🏗️ Backend Services (FastAPI / Django / Node.js)     │
-│  ├─ API Gateway                                        │
-│  ├─ Microservices                                      │
-│  ├─ Event Streaming (Kafka)                            │
-│  └─ Business Logic                                     │
-│                                                         │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│  💾 Data Layer                                          │
-│  ├─ PostgreSQL / MongoDB                               │
-│  ├─ Redis Cache                                        │
-│  └─ Vector DB (for embeddings)                         │
-│                                                         │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│  🔧 Infrastructure                                      │
-│  ├─ Docker & Kubernetes                                │
-│  ├─ AWS / GCP                                          │
-│  ├─ CI/CD Pipeline                                     │
-│  └─ Monitoring & Observability                         │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
-
-## `🔬 Why I'm Obsessed With Model Failures`
-
-```python
-# This is the real work:
-# Not when models succeed (that's validation)
-# But understanding WHY they fail (that's wisdom)
-
-class ModelDebugger:
-    def analyze_failure(self, prediction, ground_truth):
-        """
-        The interesting cases:
-        - Distributional shift in production
-        - Edge cases the training set missed
-        - Catastrophic interference in fine-tuning
-        - Hallucinations in reasoning tasks
-        - Out-of-distribution inputs
-        
-        Each failure is a lesson in system design.
-        """
-        pass
-
-# "Excellence is not just reaching 99% accuracy.
-#  It's understanding what makes the 1% fail."
-```
-
-
-
-## `📈 Growth Trajectory`
-
-```
-2023 → Present:  B.Tech CSE-AI @ NIET (8.93 CGPA)
-                 ├─ Built MarketIQ: real-time financial intelligence
-                 ├─ Built CodeAutopsy: AI codebase reverse engineering
-                 └─ Built CodeDuo: agentic developer productivity tool
-
-Next Chapter:    Production AI Systems + Open Source
-                 ├─ LLM orchestration frameworks
-                 ├─ Distributed financial ML infrastructure
-                 └─ Developer tooling for AI-native workflows
-```
-
----
-
-## `🚀 Quick Links`
-
-```bash
-~$ echo "explore my work" && cat links.md
-```
-
-| Resource | Link |
-|----------|------|
-| 💻 **GitHub** | github.com/harish05-q |
-| 🔗 **LinkedIn** | linkedin.com/in/harish0501 |
-| 📧 **Email** | harishpal0501@gmail.com |
-
----
-
-```
-╔════════════════════════════════════════════════════════════════════════╗
-║                                                                        ║
-║  "More interested in why models fail than when they succeed"          ║
-║                                                                        ║
-║  — Every failure is a feature waiting to be discovered                ║
-║                                                                        ║
-╚════════════════════════════════════════════════════════════════════════╝
-```
-
----
+<a href="https://linkedin.com/in/harish05-q"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:harishpal0501@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://github.com/harish05-q"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<img src="https://komarev.com/ghpvc/?username=harish05-q&style=for-the-badge&color=2563eb&label=PROFILE+VIEWS"/>
+
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=600&lines=Building+GenAI+%2B+Agentic+Systems;Reverse-Engineering+Codebases+with+AI;Quant+Finance+%C3%97+Machine+Learning;Open+to+AI%2FML+%26+Backend+Roles" alt="Typing SVG" />
+
+</div>
+
+<br/>
+
+## About Me
+
+- 🎓 B.Tech CSE (AI), NIET — **8.93 CGPA**
+- 🧠 Focused on **LLM orchestration, agentic systems, and financial ML infrastructure**
+- 🔭 Currently exploring system design and multi-agent architectures
+- 🤝 Open to **AI Systems, Quant Finance, LLM Apps, and Backend Engineering** roles
+
+<br/>
+
+## Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🔬 [CodeAutopsy](https://github.com/harish05-q/CodeAutopsy)**
+<br/>
+AI system that reverse-engineers GitHub repos into architecture docs, dependency graphs, and bug-hotspot insights.
+
+`FastAPI` `Tree-sitter` `FAISS` `Next.js`
+
+</td>
+<td width="50%" valign="top">
+
+**🤖 [CodeDuo](https://github.com/harish05-q/CodeDuo)**
+<br/>
+Agentic workflow platform automating dev problem-solving via multi-step LLM orchestration with sandboxed execution.
+
+`n8n` `LLM Orchestration` `Python`
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## Tech Stack
 
 <div align="center">
 
-**Made with ❤️ and lots of `git commit`s**
+**AI/ML**
+<br/>
+<img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,opencv" />
 
-```
-Last Updated: 2026-05-14
-Status: 🟢 Open to opportunities
-```
+**Backend & Data**
+<br/>
+<img src="https://skillicons.dev/icons?i=nodejs,fastapi,django,graphql,postgres,mongodb,redis" />
+
+**Frontend & Tools**
+<br/>
+<img src="https://skillicons.dev/icons?i=react,ts,tailwind,docker,aws,git,kubernetes" />
 
 </div>
-```
+
+<br/>
+
+## GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=harish05-q&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=harish05-q&theme=tokyonight&hide_border=true" height="165"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=harish05-q&theme=tokyo-night&hide_border=true&area=true" width="97%"/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=harish05-q&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=8" width="97%"/>
+
+</div>
+
+<br/>
+
+## Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/harish05-q/harish05-q/output/github-contribution-grid-snake-dark.svg" width="97%"/>
+
+<sub>Animated automatically every 24h via GitHub Actions — see <code>.github/workflows/snake.yml</code> below</sub>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+*"More interested in why models fail than when they succeed."*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,50:1a1a3e,100:0f0f1a&height=100&section=footer" width="100%"/>
+
+</div>
