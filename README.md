@@ -17,7 +17,7 @@
 
 ## About Me
 
-- 🎓 B.Tech CSE (AI), NIET — **8.93 CGPA**
+- 🎓 B.Tech CSE (AI), NIET — **9.02 CGPA**
 - 🧠 Focused on **LLM orchestration, agentic systems, and financial ML infrastructure**
 - 🔭 Currently exploring system design and multi-agent architectures
 - 🤝 Open to **AI Systems, Quant Finance, LLM Apps, and Backend Engineering** roles
@@ -39,11 +39,11 @@ AI system that reverse-engineers GitHub repos into architecture docs, dependency
 </td>
 <td width="50%" valign="top">
 
-**🤖 [CodeDuo](https://github.com/harish05-q/CodeDuo)**
+**🤖 [MarketIQ](https://github.com/harish05-q/MarketIQ)**
 <br/>
-Agentic workflow platform automating dev problem-solving via multi-step LLM orchestration with sandboxed execution.
+AI-native real-time market intelligence platform — ingests financial news, runs RAG-based semantic retrieval, and generates explainable, source-linked market briefings.
 
-`n8n` `LLM Orchestration` `Python`
+`Python` `FastAPI` `Kafka` `Qdrant` `LangChain` `Next.js`
 
 </td>
 </tr>
