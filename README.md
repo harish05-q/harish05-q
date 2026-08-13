@@ -17,7 +17,7 @@
 
 ## About Me
 
-- 🎓 B.Tech CSE (AI), NIET — **9.02 CGPA**
+- 🎓 B.Tech CSE (AI), NIET 
 - 🧠 Focused on **LLM orchestration, agentic systems, and financial ML infrastructure**
 - 🔭 Currently exploring system design and multi-agent architectures
 - 🎓 Here's my portfolio website: **🔬 [Portfolio](https://portfolio-three-jade-97.vercel.app/)**
