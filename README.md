@@ -33,7 +33,7 @@
 
 **🔬 [CodeAutopsy](https://github.com/harish05-q/CodeAutopsy)**
 <br/>
-AI system that reverse-engineers GitHub repos into architecture docs, dependency graphs, and bug-hotspot insights.
+A developer tool that analyzes unfamiliar Python codebases and turns them into understandable architecture maps, dependency/call graphs, maintainability reports, onboarding guides, and source-grounded Q&A.
 
 `FastAPI` `Tree-sitter` `FAISS` `Next.js`
 
