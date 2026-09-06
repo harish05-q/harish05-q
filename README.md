@@ -40,11 +40,11 @@ AI system that reverse-engineers GitHub repos into architecture docs, dependency
 </td>
 <td width="50%" valign="top">
 
-**🤖 [MarketIQ](https://github.com/harish05-q/MarketIQ)**
+**🤖 [R.AI — Autonomous Revenue Recovery Agent](https://github.com/harish05-q/rai)**
 <br/>
-AI-native real-time market intelligence platform — ingests financial news, runs RAG-based semantic retrieval, and generates explainable, source-linked market briefings.
+An AI-powered revenue recovery system that identifies at-risk payments and subscriptions, recommends recovery actions, and autonomously executes only policy-approved, low-risk actions. Built with a deterministic policy engine, outcome tracking, analytics, and an auditable execution trail.
 
-`Python` `FastAPI` `Kafka` `Qdrant` `LangChain` `Next.js`
+`Python` `FastAPI` `Docker` `PostGreSQL` `AI/LLMs` `Next.js`
 
 </td>
 </tr>
