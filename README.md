@@ -9,7 +9,7 @@
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=600&lines=Building+GenAI+%2B+Agentic+Systems;Reverse-Engineering+Codebases+with+AI;Quant+Finance+%C3%97+Machine+Learning;Open+to+AI%2FML+%26+Backend+Roles" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=600&lines=Building+GenAI+%2B+Agentic+Systems;Reverse-Engineering+Codebases+with+AI;Machine+Learning;Open+to+AI%2FML+%26+Backend+Roles" alt="Typing SVG" />
 
 </div>
 
