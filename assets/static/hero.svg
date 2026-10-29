@@ -10,12 +10,11 @@
 @keyframes tag{0%{opacity:0;transform:translate(0,8px)}60%{opacity:0;transform:translate(0,8px)}61.8%{opacity:1;transform:translate(0,0)}75.7%{opacity:1;transform:translate(0,0)}78.6%{opacity:0;transform:translate(0,0)}100%{opacity:0}}
 @keyframes live{0%,100%{opacity:1}50%{opacity:.35}}
 @keyframes nf0{0%{fill:var(--surface)}1%{fill:var(--surface)}2.1%{fill:var(--green-soft)}47.1%{fill:var(--green-soft)}50%{fill:var(--surface)}100%{fill:var(--surface)}}@keyframes nf1{0%{fill:var(--surface)}5.1%{fill:var(--surface)}6.3%{fill:var(--green-soft)}47.1%{fill:var(--green-soft)}50%{fill:var(--surface)}100%{fill:var(--surface)}}@keyframes nf2{0%{fill:var(--surface)}9.2%{fill:var(--surface)}10.4%{fill:var(--pink-soft)}47.1%{fill:var(--pink-soft)}50%{fill:var(--surface)}100%{fill:var(--surface)}}@keyframes nf3{0%{fill:var(--surface)}20.4%{fill:var(--surface)}21.6%{fill:var(--green-soft)}47.1%{fill:var(--green-soft)}50%{fill:var(--surface)}100%{fill:var(--surface)}}@keyframes nf4{0%{fill:var(--surface)}24.5%{fill:var(--surface)}25.6%{fill:var(--green-soft)}47.1%{fill:var(--green-soft)}50%{fill:var(--surface)}100%{fill:var(--surface)}}@keyframes nf5{0%{fill:var(--surface)}28.5%{fill:var(--surface)}29.6%{fill:var(--green-soft)}47.1%{fill:var(--green-soft)}50%{fill:var(--surface)}100%{fill:var(--surface)}}
-@media (prefers-reduced-motion:no-preference){.pkg{animation:pkg 14s linear infinite}.pkp{animation:pkp 14s linear infinite}
+.pkg{animation:pkg 14s linear infinite}.pkp{animation:pkp 14s linear infinite}
 .pkg .core{animation:core 14s linear infinite}.pkg .glow{animation:glow 14s linear infinite}
 .pglow{animation:pglow 14s linear infinite}.tag{animation:tag 14s ease-out infinite}
 .live{animation:live 3s ease-in-out infinite}
-.n0{animation:nf0 14s linear infinite}.n1{animation:nf1 14s linear infinite}.n2{animation:nf2 14s linear infinite}.n3{animation:nf3 14s linear infinite}.n4{animation:nf4 14s linear infinite}.n5{animation:nf5 14s linear infinite}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+.n0{animation:nf0 14s linear infinite}.n1{animation:nf1 14s linear infinite}.n2{animation:nf2 14s linear infinite}.n3{animation:nf3 14s linear infinite}.n4{animation:nf4 14s linear infinite}.n5{animation:nf5 14s linear infinite}</style>
 <defs></defs>
 <rect x="0.75" y="0.75" width="1278.5" height="598.5" rx="24" fill="#FFF6F8" stroke="#F1D6E0" stroke-width="1.5"/>
 <text x="72" y="76" class="s" font-size="20" fill="#706C76" font-weight="600" letter-spacing="4">SYSTEMS · BACKEND · AGENTIC AI · FINTECH</text>

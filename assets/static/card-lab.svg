@@ -3,8 +3,7 @@
 <style>:root{--bg:#FFF6F8;--surface:#FFFFFF;--surface-alt:#F3FBF7;--border:#F1D6E0;--grid:#F6E4EB;--ink:#1B1B1F;--muted:#6B6870;--subtle:#9A96A0;--subtle-ink:#706C76;--green:#129A6A;--green-ink:#0B7A53;--green-soft:#BFEBD7;--pink:#E0457B;--pink-ink:#C2255C;--pink-soft:#FAD3E1}
 .s{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif}.m{font-family:ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace}
 @keyframes nudge{0%,70%,100%{transform:translate(0,0)}80%{transform:translate(6px,0)}}
-@media (prefers-reduced-motion:no-preference){.ex{animation:nudge 4s ease-in-out infinite}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+.ex{animation:nudge 4s ease-in-out infinite}</style>
 <defs></defs>
 <rect x="0.75" y="0.75" width="618.5" height="298.5" rx="20" fill="#FFF6F8"/>
 <rect x="8" y="8" width="604" height="284" rx="16" fill="#FFFFFF" stroke="#E0457B" stroke-opacity=".55" stroke-width="2" stroke-dasharray="9 7"/>

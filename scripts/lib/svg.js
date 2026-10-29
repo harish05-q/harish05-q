@@ -88,15 +88,16 @@ export const shadowFilter = `<filter id="sh" x="-10%" y="-10%" width="120%" heig
 <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="${P.green}" flood-opacity=".06"/></filter>`;
 
 // Full SVG document with its own rounded --bg frame.
-// css: static rules. motion: rules applied only when motion is allowed.
+// css: static rules and keyframes. motion: animation rules. Motion always
+// plays (even with reduced motion set); renderers without CSS animation show
+// the static base frame.
 export function doc({ w, h, title, desc = '', css = '', motion = '', body, defs = '', radius = 24, bg = 'bg', border = true, dashed = false }) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-labelledby="t d">
 <title id="t">${esc(title)}</title><desc id="d">${esc(desc || title)}</desc>
 <style>:root{${cssVars}}
 .s{font-family:${fonts.sans}}.m{font-family:${fonts.mono}}
 ${css}
-@media (prefers-reduced-motion:no-preference){${motion}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+${motion}</style>
 <defs>${defs}</defs>
 <rect x="0.75" y="0.75" width="${w - 1.5}" height="${h - 1.5}" rx="${radius}" fill="${P[bg] ?? bg}"${border ? ` stroke="${P.border}" stroke-width="1.5"` : ''}${dashed ? ' stroke-dasharray="10 7"' : ''}/>
 ${body}
