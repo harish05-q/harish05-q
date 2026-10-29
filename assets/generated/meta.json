@@ -1,0 +1,55 @@
+{
+  "lab": [
+    {
+      "name": "Stock-price-prediction-LSTM",
+      "line": "LSTM forecaster for stock closing prices (Keras).",
+      "url": "https://github.com/harish05-q/Stock-price-prediction-LSTM"
+    },
+    {
+      "name": "Transformer-Based-Text-Classification",
+      "line": "Classical ML vs RNN vs fine-tuned transformers on AG News.",
+      "url": "https://github.com/harish05-q/Transformer-Based-Text-Classification"
+    },
+    {
+      "name": "PInSight",
+      "line": "Agentic payment-incident investigation with cited root causes.",
+      "url": "https://github.com/harish05-q/PInSight"
+    },
+    {
+      "name": "WhyThisMoment",
+      "line": "AI cricket explainer for tactical turning points.",
+      "url": "https://github.com/harish05-q/WhyThisMoment"
+    },
+    {
+      "name": "Candidate-Transformer-Pipeline",
+      "line": "Config-driven pipeline unifying candidate data from many sources.",
+      "url": "https://github.com/harish05-q/Candidate-Transformer-Pipeline"
+    },
+    {
+      "name": "SkillSwap",
+      "line": "Semantic skill exchange using NLP for peer learning.",
+      "url": "https://github.com/harish05-q/SkillSwap"
+    },
+    {
+      "name": "EduSwap",
+      "line": "Student resource marketplace with credits (Next.js, Supabase).",
+      "url": "https://github.com/harish05-q/EduSwap"
+    },
+    {
+      "name": "FinTrack",
+      "line": "Full-stack personal finance tracker with budgets and charts.",
+      "url": "https://github.com/harish05-q/FinTrack"
+    },
+    {
+      "name": "EveGala",
+      "line": "PHP event booking and reservations app.",
+      "url": "https://github.com/harish05-q/EveGala"
+    },
+    {
+      "name": "SehatLink-telemedicine",
+      "line": "Telemedicine web app.",
+      "url": "https://github.com/harish05-q/SehatLink-telemedicine"
+    }
+  ],
+  "refreshedAt": "2026-10-29T18:51:09.554Z"
+}

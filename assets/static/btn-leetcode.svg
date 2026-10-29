@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="166" height="48" viewBox="0 0 166 48" role="img" aria-label="LeetCode">
+<title>LeetCode</title>
+<style>.m{font-family:ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace}</style>
+<rect x="1" y="1" width="164" height="46" rx="23" fill="#FFFFFF" stroke="#F1D6E0" stroke-width="1.5"/>
+<g transform="translate(18,15)"><path d="M6 3L1 9l5 6M12 3l5 6-5 6" fill="none" stroke="#129A6A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="46" y="31" class="m" font-size="20" fill="#1B1B1F">LeetCode</text>
+</svg>
