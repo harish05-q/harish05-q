@@ -71,12 +71,12 @@
 </details>
 
 <a name="pulse"></a>
-<p align="center"><img src="assets/generated/pulse.svg?v=b2522df" width="100%" alt="Commit pulse: weekly contributions over the last year drawn as a heartbeat line"></p>
-<p align="center"><img src="assets/generated/latest.svg?v=7363ce2" width="100%" alt="Latest pushes: the four most recently pushed repositories and their last commit"></p>
+<p align="center"><img src="assets/generated/pulse.svg?v=194ad77" width="100%" alt="Commit pulse: weekly contributions over the last year drawn as a heartbeat line"></p>
+<p align="center"><img src="assets/generated/latest.svg?v=0dd7043" width="100%" alt="Latest pushes: the four most recently pushed repositories and their last commit"></p>
 
 <a name="stack"></a>
-<p align="center"><img src="assets/generated/stack.svg?v=80cb1d0" width="100%" alt="Tech stack grouped by languages, backend and data, frontend, AI and LLM, infra and tooling, core CS"></p>
+<p align="center"><img src="assets/generated/stack.svg?v=8844555" width="100%" alt="Tech stack grouped by languages, backend and data, frontend, AI and LLM, infra and tooling, core CS"></p>
 <p align="center"><img src="assets/generated/cp.svg?v=8a72f13" width="100%" alt="Competitive programming scoreboard"></p>
 
 <p align="center"><img src="assets/static/footer.svg?v=e9a1d08" width="100%" alt="learn · repeat: diagnose, recommend, policy check, execute, observe, recover"></p>
-<p align="center"><sub>last refreshed 2026-10-29 19:19 UTC by a GitHub Action</sub></p>
+<p align="center"><sub>last refreshed 2026-10-29 19:21 UTC by a GitHub Action</sub></p>
