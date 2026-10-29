@@ -15,11 +15,11 @@ export const person = {
 
 export const links = [
   { id: 'portfolio', label: 'Portfolio', icon: 'globe', accent: 'green', url: 'https://portfolio-three-jade-97.vercel.app/' },
-  { id: 'linkedin', label: 'LinkedIn', icon: 'person', accent: 'pink', url: 'https://www.linkedin.com/in/harish0501/' },
+  { id: 'linkedin', label: 'LinkedIn', icon: 'person', accent: 'green', url: 'https://www.linkedin.com/in/harish0501/' },
   { id: 'email', label: 'Email', icon: 'mail', accent: 'green', url: 'mailto:harishpal0501@gmail.com' },
-  { id: 'resume', label: 'Resume', icon: 'doc', accent: 'pink', url: '[[RESUME_URL]]' },
+  { id: 'resume', label: 'Resume', icon: 'doc', accent: 'green', url: '[[RESUME_URL]]' },
   { id: 'leetcode', label: 'LeetCode', icon: 'brackets', accent: 'green', url: 'https://leetcode.com/u/harish_60/' },
-  { id: 'codechef', label: 'CodeChef', icon: 'braces', accent: 'pink', url: 'https://www.codechef.com/users/harish_pal_67' },
+  { id: 'codechef', label: 'CodeChef', icon: 'braces', accent: 'green', url: 'https://www.codechef.com/users/harish_pal_67' },
   { id: 'codeforces', label: 'Codeforces', icon: 'bars', accent: 'green', url: '[[CODEFORCES_URL]]' },
 ];
 
@@ -32,14 +32,15 @@ export const cp = {
   codechefStars: '[[CODECHEF_STARS]]',
 };
 
-// Brand palette. Vivid tokens are for shapes and large text; *Ink tokens are
+// Brand palette: mint base, green primary; pink is reserved for guardrails
+// (policy check, blocked, hotspots). Vivid tokens are for shapes and large text; *Ink tokens are
 // darker variants so small text passes WCAG AA (4.5:1) on --bg and --surface.
 export const palette = {
-  bg: '#FFF6F8',
+  bg: '#F2FAF6',
   surface: '#FFFFFF',
-  surfaceAlt: '#F3FBF7',
-  border: '#F1D6E0',
-  grid: '#F6E4EB',
+  surfaceAlt: '#E6F5EE',
+  border: '#CFE9DC',
+  grid: '#E0F1E8',
   ink: '#1B1B1F',
   muted: '#6B6870',
   subtle: '#9A96A0',

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="166" height="48" viewBox="0 0 166 48" role="img" aria-label="LinkedIn">
 <title>LinkedIn</title>
 <style>.m{font-family:ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace}</style>
-<rect x="1" y="1" width="164" height="46" rx="23" fill="#FFFFFF" stroke="#F1D6E0" stroke-width="1.5"/>
-<g transform="translate(18,15)"><circle cx="9" cy="5.5" r="4" fill="#E0457B"/><path d="M1 17c0-4.4 3.6-7 8-7s8 2.6 8 7z" fill="#E0457B"/></g>
+<rect x="1" y="1" width="164" height="46" rx="23" fill="#FFFFFF" stroke="#CFE9DC" stroke-width="1.5"/>
+<g transform="translate(18,15)"><circle cx="9" cy="5.5" r="4" fill="#129A6A"/><path d="M1 17c0-4.4 3.6-7 8-7s8 2.6 8 7z" fill="#129A6A"/></g>
 <text x="46" y="31" class="m" font-size="20" fill="#1B1B1F">LinkedIn</text>
 </svg>

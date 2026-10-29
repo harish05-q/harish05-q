@@ -84,7 +84,7 @@ export function chip(x, y, label, o = {}) {
 }
 
 export const shadowFilter = `<filter id="sh" x="-10%" y="-10%" width="120%" height="130%">
-<feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="${P.pink}" flood-opacity=".06"/>
+<feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="${P.green}" flood-opacity=".05"/>
 <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="${P.green}" flood-opacity=".06"/></filter>`;
 
 // Full SVG document with its own rounded --bg frame.

@@ -114,12 +114,12 @@ function pulseSvg({ days, commits }) {
   const css = `@keyframes draw{0%{stroke-dashoffset:${L}}45%,100%{stroke-dashoffset:0}}@keyframes fade{0%,30%{opacity:0}55%,100%{opacity:1}}@keyframes beat{0%,45%{transform:scale(1);opacity:1}60%{transform:scale(2.4);opacity:0}100%{opacity:0}}`;
   const motion = '.ln{animation:draw 8s ease-out infinite}.ar{animation:fade 8s ease-out infinite}.bt{animation:beat 2s ease-out infinite;transform-box:fill-box;transform-origin:center}';
   const body = [
-    text(X0, 50, 'Commit pulse', { fam: 'mono', size: 26, weight: 700, fill: 'pinkInk' }),
+    text(X0, 50, 'Commit pulse', { fam: 'mono', size: 26, weight: 700, fill: 'greenInk' }),
     text(X1, 48, 'drawn from real commits', { fam: 'mono', fill: 'subtleInk', anchor: 'end' }),
     `<line x1="${X0}" y1="${BASE}" x2="${X1}" y2="${BASE}" stroke="${P.grid}" stroke-width="1.5"/>`,
-    `<path class="ar" d="${d} L${X1},${BASE + 14} L${X0},${BASE + 14} Z" fill="${P.pinkSoft}" fill-opacity=".55"/>`,
-    `<path class="ln" d="${d}" fill="none" stroke="${P.pink}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="${L}" stroke-dashoffset="0"/>`,
-    `<circle class="bt" cx="${r(lastX)}" cy="${BASE}" r="6" fill="${P.pink}" opacity=".5"/><circle cx="${r(lastX)}" cy="${BASE}" r="5" fill="${P.pink}"/>`,
+    `<path class="ar" d="${d} L${X1},${BASE + 14} L${X0},${BASE + 14} Z" fill="${P.greenSoft}" fill-opacity=".55"/>`,
+    `<path class="ln" d="${d}" fill="none" stroke="${P.green}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="${L}" stroke-dashoffset="0"/>`,
+    `<circle class="bt" cx="${r(lastX)}" cy="${BASE}" r="6" fill="${P.green}" opacity=".5"/><circle cx="${r(lastX)}" cy="${BASE}" r="5" fill="${P.green}"/>`,
     text(X0, 208, '52 weeks ago', { fam: 'mono', fill: 'subtleInk' }),
     text(X1, 208, `this week · ${last.total}`, { fam: 'mono', fill: 'subtleInk', anchor: 'end' }),
     `<line x1="${X0}" y1="216" x2="${X1}" y2="216" stroke="${P.grid}" stroke-width="1.5"/>`,
@@ -146,14 +146,14 @@ function fit(str, size, maxW, fam = 'sans') {
 function latestSvg(rows) {
   const W = 1280, H = 240;
   const head = `<path d="M0.75,24.75 a24,24 0 0 1 24,-24 H${W - 24.75} a24,24 0 0 1 24,24 V52 H0.75 Z" fill="${P.surfaceAlt}"/><line x1="0.75" y1="52" x2="${W - 0.75}" y2="52" stroke="${P.border}" stroke-width="1.5"/>`
-    + [P.pink, P.pinkSoft, P.green].map((c, i) => `<circle cx="${32 + i * 22}" cy="26" r="7" fill="${c}"/>`).join('')
+    + [P.green, '#7FCFAE', P.greenSoft].map((c, i) => `<circle cx="${32 + i * 22}" cy="26" r="7" fill="${c}"/>`).join('')
     + text(112, 33, '$ git log --recent', { fam: 'mono', fill: 'ink', weight: 600 })
     + text(W - 32, 33, `${USER}`, { fam: 'mono', fill: 'subtleInk', anchor: 'end' });
   const lines = rows.map((x, i) => {
     const y = 96 + i * 38;
     const lc = languageColors[x.language] ?? P.subtle;
     return `<g class="row r${i}">`
-      + text(48, y, '›', { fam: 'mono', fill: 'pinkInk', weight: 700 })
+      + text(48, y, '›', { fam: 'mono', fill: 'greenInk', weight: 700 })
       + text(72, y, fit(x.name, 20, 250, 'mono'), { fam: 'mono', fill: 'greenInk', weight: 600 })
       + (x.language ? `<circle cx="340" cy="${y - 7}" r="6" fill="${lc}"/>` + text(354, y, x.language, { fill: 'muted' }) : '')
       + text(560, y, x.when, { fam: 'mono', fill: 'subtleInk', anchor: 'end' })
@@ -179,7 +179,7 @@ function stackSvg(groups) {
     let x = CX, rows = 1;
     const chips = [];
     for (const item of g.items) {
-      const dot = gi === 0 ? (languageColors[item] ?? P.green) : (gi % 2 ? P.pink : P.green);
+      const dot = gi === 0 ? (languageColors[item] ?? P.green) : (gi % 2 ? '#7FCFAE' : P.green);
       let c = chip(x, y + (rows - 1) * ROW, item, { fam: 'sans', size: 20, h: 34, padX: 12, dot, color: 'ink' });
       if (x + c.w > MAX) { rows++; x = CX; c = chip(x, y + (rows - 1) * ROW, item, { fam: 'sans', size: 20, h: 34, padX: 12, dot, color: 'ink' }); }
       chips.push(c.svg); x += c.w + 10;
@@ -191,7 +191,7 @@ function stackSvg(groups) {
   const H = y + 14;
   const css = '@keyframes in{from{opacity:0}to{opacity:1}}';
   const motion = groups.map((_, i) => `.g${i}{animation:in .8s ease-out ${(0.1 + i * 0.2).toFixed(2)}s both}`).join('');
-  const body = text(LX, 44, '$ ls stack', { fam: 'mono', fill: 'subtleInk' }) + text(LX, 80, 'Tech stack', { fam: 'mono', size: 30, weight: 700, fill: 'pinkInk' }) + parts.join('\n');
+  const body = text(LX, 44, '$ ls stack', { fam: 'mono', fill: 'subtleInk' }) + text(LX, 80, 'Tech stack', { fam: 'mono', size: 30, weight: 700, fill: 'greenInk' }) + parts.join('\n');
   return doc({ w: W, h: H, css, motion, body, title: 'Tech stack', desc: groups.map((g) => `${g.group}: ${g.items.join(', ')}`).join('. ') });
 }
 
@@ -200,12 +200,21 @@ async function leetcode(handle) {
   const res = await fetch('https://leetcode.com/graphql', {
     method: 'POST', signal: AbortSignal.timeout(15000),
     headers: { ...UA, 'Content-Type': 'application/json', Referer: 'https://leetcode.com' },
-    body: JSON.stringify({ query: 'query($u:String!){matchedUser(username:$u){submitStatsGlobal{acSubmissionNum{difficulty count}}}}', variables: { u: handle } }),
+    body: JSON.stringify({
+      query: 'query($u:String!){matchedUser(username:$u){submitStatsGlobal{acSubmissionNum{difficulty count}}} userContestRanking(username:$u){rating attendedContestsCount topPercentage badge{name}} userContestRankingHistory(username:$u){attended rating}}',
+      variables: { u: handle },
+    }),
   });
-  const list = (await res.json())?.data?.matchedUser?.submitStatsGlobal?.acSubmissionNum;
+  const data = (await res.json())?.data;
+  const list = data?.matchedUser?.submitStatsGlobal?.acSubmissionNum;
   if (!list) throw new Error('no LeetCode data');
   const n = Object.fromEntries(list.map((x) => [x.difficulty, x.count]));
-  return { kind: 'leetcode', total: n.All, easy: n.Easy, medium: n.Medium, hard: n.Hard };
+  const c = data.userContestRanking;
+  const contest = c?.rating ? {
+    rating: Math.round(c.rating), contests: c.attendedContestsCount, top: c.topPercentage, badge: c.badge?.name ?? null,
+    history: (data.userContestRankingHistory ?? []).filter((x) => x.attended).map((x) => Math.round(x.rating)),
+  } : null;
+  return { kind: 'leetcode', total: n.All, easy: n.Easy, medium: n.Medium, hard: n.Hard, contest };
 }
 
 async function codeforces(handle) {
@@ -223,48 +232,71 @@ async function codechef(handle) {
   return { kind: 'codechef', rating: Number(rating), stars, highest: highest ? Number(highest) : null };
 }
 
+const DIFF = [['Easy', 'easy', '#129A6A'], ['Medium', 'medium', '#7FCFAE'], ['Hard', 'hard', '#1B1B1F']];
+
+function sparkline(hs, x, y, w, h, cls = 'sp') {
+  const vs = hs.length > 1 ? hs : [hs[0] ?? 0, hs[0] ?? 0];
+  const lo = Math.min(...vs), hi = Math.max(...vs);
+  const pts = vs.map((v, i) => [r(x + (i / (vs.length - 1)) * w), r(y + h - ((v - lo) / Math.max(1, hi - lo)) * h)]);
+  const last = pts[pts.length - 1];
+  return `<polyline class="${cls}" points="${pts.map((q) => q.join(',')).join(' ')}" fill="none" stroke="${P.green}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="${last[0]}" cy="${last[1]}" r="4.5" fill="${P.green}"/>`;
+}
+
 function cpPanel(p, x, w) {
   const y = 76, h = 148;
   const frame = `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="16" fill="${P.surface}" stroke="${P.border}" stroke-width="1.5" filter="url(#sh)"/>`;
   if (p.kind === 'leetcode') {
     const cx = x + 84, cy = y + h / 2, R = 48, C = 2 * Math.PI * R;
+    const lx = x + 170, lr = p.contest ? x + 392 : x + w - 28;
     let off = 0;
-    const segs = [['easy', P.green], ['medium', P.pink], ['hard', P.ink]].map(([k, c]) => {
+    const segs = DIFF.map(([, k, c]) => {
       const len = (p[k] / Math.max(1, p.total)) * C;
       const s = `<circle class="dn" cx="${cx}" cy="${cy}" r="${R}" fill="none" stroke="${c}" stroke-width="14" stroke-dasharray="${r(len)} ${r(C - len)}" stroke-dashoffset="${r(-off)}" transform="rotate(-90 ${cx} ${cy})"/>`;
       off += len; return s;
     }).join('');
-    const legend = [['Easy', p.easy, P.green], ['Medium', p.medium, P.pink], ['Hard', p.hard, P.ink]]
-      .map(([k, v, c], i) => `<circle cx="${x + 170}" cy="${y + 68 + i * 26}" r="6" fill="${c}"/>` + text(x + 184, y + 75 + i * 26, `${k} `, { fam: 'mono', fill: 'muted' }) + text(x + w - 28, y + 75 + i * 26, String(v), { fam: 'mono', fill: 'ink', weight: 700, anchor: 'end' })).join('');
+    const legend = DIFF.map(([label, k, c], i) => `<circle cx="${lx}" cy="${y + 68 + i * 26}" r="6" fill="${c}"/>`
+      + text(lx + 14, y + 75 + i * 26, label, { fam: 'mono', fill: 'muted' })
+      + text(lr, y + 75 + i * 26, String(p[k]), { fam: 'mono', fill: 'ink', weight: 700, anchor: 'end' })).join('');
+    let contest = '';
+    if (p.contest) {
+      const k = p.contest, rx = x + 424, rw = w - 28 - (x + 424 - x);
+      contest = `<line x1="${x + 408}" y1="${y + 22}" x2="${x + 408}" y2="${y + h - 22}" stroke="${P.grid}" stroke-width="1.5"/>`
+        + text(rx, y + 36, 'contest rating', { fam: 'mono', fill: 'subtleInk' })
+        + (k.top != null ? text(x + w - 28, y + 36, `top ${k.top}%`, { fam: 'mono', fill: 'greenInk', anchor: 'end', weight: 700 }) : '')
+        + text(rx, y + 78, `<tspan font-weight="800" fill="${P.ink}" font-size="30">${k.rating}</tspan><tspan fill="${P.muted}">${k.badge ? ` ${esc(k.badge)}` : ''}</tspan>`, { fam: 'mono', raw: true })
+        + sparkline(k.history, rx, y + 98, rw - 150, 28)
+        + text(x + w - 28, y + 124, `${k.contests} contests`, { fam: 'mono', fill: 'muted', anchor: 'end' });
+    }
     return frame + `<circle cx="${cx}" cy="${cy}" r="${R}" fill="none" stroke="${P.grid}" stroke-width="14"/>` + segs
       + text(cx, cy + 9, String(p.total), { size: 26, weight: 800, anchor: 'middle' })
-      + text(x + 170, y + 38, 'LeetCode', { size: 24, weight: 700, fill: 'greenInk' }) + text(x + w - 28, y + 36, 'solved', { fam: 'mono', fill: 'subtleInk', anchor: 'end' }) + legend;
+      + text(lx, y + 38, 'LeetCode', { size: 24, weight: 700, fill: 'greenInk' }) + text(lr, y + 36, 'solved', { fam: 'mono', fill: 'subtleInk', anchor: 'end' })
+      + legend + contest;
   }
   if (p.kind === 'codeforces') {
-    const hs = p.history.length > 1 ? p.history : [p.rating, p.rating];
-    const lo = Math.min(...hs), hi = Math.max(...hs), sx = x + 28, sw = w - 56, sy = y + 96, sh = 36;
-    const pts = hs.map((v, i) => `${r(sx + (i / (hs.length - 1)) * sw)},${r(sy + sh - ((v - lo) / Math.max(1, hi - lo)) * sh)}`).join(' ');
     return frame + text(x + 28, y + 38, 'Codeforces', { size: 24, weight: 700, fill: 'greenInk' })
-      + text(x + w - 28, y + 36, p.rank, { fam: 'mono', fill: 'pinkInk', anchor: 'end' })
+      + text(x + w - 28, y + 36, p.rank, { fam: 'mono', fill: 'greenInk', anchor: 'end' })
       + text(x + 28, y + 80, `<tspan font-weight="800" fill="${P.ink}" font-size="30">${p.rating}</tspan><tspan fill="${P.muted}"> rating · max ${p.max}</tspan>`, { fam: 'mono', raw: true })
-      + `<polyline class="sp" points="${pts}" fill="none" stroke="${P.pink}" stroke-width="2.5" stroke-linejoin="round"/>`;
+      + sparkline(p.history.length ? p.history : [p.rating], x + 28, y + 96, w - 56, 36);
   }
   const stars = Array.from({ length: Math.max(0, Math.min(7, p.stars)) }, (_, i) => `<path transform="translate(${x + 28 + i * 30},${y + 106})" d="M11 0l3.2 7 7.6.8-5.7 5.1 1.6 7.5L11 16.6 4.3 20.4l1.6-7.5L.2 7.8 7.8 7z" fill="${P.green}"/>`).join('');
   return frame + text(x + 28, y + 38, 'CodeChef', { size: 24, weight: 700, fill: 'greenInk' })
-    + text(x + w - 28, y + 36, `${p.stars}★`, { fam: 'mono', fill: 'pinkInk', anchor: 'end', weight: 700 })
+    + text(x + w - 28, y + 36, `${p.stars}★`, { fam: 'mono', fill: 'greenInk', anchor: 'end', weight: 700 })
     + text(x + 28, y + 80, `<tspan font-weight="800" fill="${P.ink}" font-size="30">${p.rating}</tspan><tspan fill="${P.muted}"> rating${p.highest ? ` · highest ${p.highest}` : ''}</tspan>`, { fam: 'mono', raw: true })
     + stars;
 }
 
 function cpSvg(panels) {
   const W = 1280, H = 248, X0 = 56, X1 = 1224, GAP = 24;
-  const w = (X1 - X0 - GAP * (panels.length - 1)) / panels.length;
+  // The LeetCode panel carries solved stats and contest rating, so it gets more width.
+  const weight = (p) => (p.kind === 'leetcode' && p.contest ? 1.7 : 1);
+  const unit = (X1 - X0 - GAP * (panels.length - 1)) / panels.reduce((a, p) => a + weight(p), 0);
+  let px = X0;
   const body = text(X0, 44, '$ cat scoreboard', { fam: 'mono', fill: 'subtleInk' })
-    + text(X1, 44, 'competitive programming', { fam: 'mono', fill: 'pinkInk', anchor: 'end', weight: 700 })
-    + panels.map((p, i) => `<g class="pn p${i}">${cpPanel(p, r(X0 + i * (w + GAP)), r(w))}</g>`).join('');
+    + text(X1, 44, 'competitive programming', { fam: 'mono', fill: 'greenInk', anchor: 'end', weight: 700 })
+    + panels.map((p, i) => { const w = unit * weight(p); const g = `<g class="pn p${i}">${cpPanel(p, r(px), r(w))}</g>`; px += w + GAP; return g; }).join('');
   const css = '@keyframes in{from{opacity:0;transform:translate(0,8px)}to{opacity:1;transform:translate(0,0)}}';
   const motion = panels.map((_, i) => `.p${i}{animation:in .8s ease-out ${(0.1 + i * 0.2).toFixed(2)}s both}`).join('');
-  return doc({ w: W, h: H, css, motion, body, defs: shadowFilter, title: 'Competitive programming scoreboard', desc: panels.map((p) => p.kind === 'leetcode' ? `LeetCode ${p.total} solved` : `${p.kind} rating ${p.rating}`).join('; ') });
+  return doc({ w: W, h: H, css, motion, body, defs: shadowFilter, title: 'Competitive programming scoreboard', desc: panels.map((p) => p.kind === 'leetcode' ? `LeetCode ${p.total} solved${p.contest ? `, contest rating ${p.contest.rating}` : ''}` : `${p.kind} rating ${p.rating}`).join('; ') });
 }
 
 // ---------------------------------------------------------------- main

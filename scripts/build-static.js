@@ -92,9 +92,9 @@ function hero() {
     text(X, 310, person.role, { fam: 'mono', size: 28, fill: 'greenInk' }),
     text(X, 352, person.tagline, { size: 28, fill: 'muted' }),
     `<line x1="${xs[0]}" y1="${Y}" x2="${xs[5]}" y2="${Y}" stroke="${P.border}" stroke-width="4" stroke-linecap="round"/>`,
-    `<path d="${loopPath}" fill="none" stroke="${P.pink}" stroke-opacity=".7" stroke-width="2.5" stroke-dasharray="8 8" stroke-linecap="round"/>`,
+    `<path d="${loopPath}" fill="none" stroke="${P.green}" stroke-opacity=".55" stroke-width="2.5" stroke-dasharray="8 8" stroke-linecap="round"/>`,
     `<rect x="${640 - loopW / 2}" y="546" width="${loopW}" height="28" fill="${P.bg}"/>`,
-    text(640, 567, loopLabel, { fam: 'mono', fill: 'pinkInk', anchor: 'middle' }),
+    text(640, 567, loopLabel, { fam: 'mono', fill: 'greenInk', anchor: 'middle' }),
     labels,
     `<circle class="pglow" cx="${xs[2]}" cy="${Y}" r="28" fill="${P.pink}" opacity="0"/>`,
     nodes,
@@ -163,7 +163,7 @@ export function sectionTitle(cmd, title) {
   return doc({
     w: 1280, h: 110, title, desc: `${cmd} ${title}`,
     body: text(56, 44, cmd, { fam: 'mono', fill: 'subtleInk' })
-      + text(56, 86, title, { fam: 'mono', size: 36, fill: 'pinkInk', weight: 700 })
+      + text(56, 86, title, { fam: 'mono', size: 36, fill: 'greenInk', weight: 700 })
       + `<line x1="${56 + measure(title, 36, 'mono') + 24}" y1="74" x2="1224" y2="74" stroke="${P.grid}" stroke-width="1.5"/>`,
   });
 }
@@ -178,7 +178,7 @@ function miniLifecycle(signature) {
     return `<circle cx="${CARD.x0 + 6 + i * 24}" cy="${y}" r="${sig ? 7 : 6}" fill="${sig ? P.pink : P.green}"/>`;
   }).join('');
   const line = `<line x1="${CARD.x0 + 6}" y1="${y}" x2="${CARD.x0 + 6 + 5 * 24}" y2="${y}" stroke="${P.greenSoft}" stroke-width="3"/>`;
-  return line + dots + text(CARD.x0 + 6 + 5 * 24 + 22, y + 7, signature, { fam: 'mono', fill: 'pinkInk' });
+  return line + dots + text(CARD.x0 + 6 + 5 * 24 + 22, y + 7, signature, { fam: 'mono', fill: 'greenInk' });
 }
 
 // Each animation draws inside the band y 176..246 and returns { body, css, motion }.
@@ -305,7 +305,7 @@ function card(p) {
   const desc = wrap(p.description, 20, x1 - x0, 'sans');
   if (desc.length > 2) throw new Error(`${p.name}: description wraps to ${desc.length} lines; shorten it in config.js`);
   const tag = isFilled(p.demo)
-    ? text(x1, 50, 'live demo ↗', { fam: 'mono', fill: 'pinkInk', anchor: 'end' })
+    ? text(x1, 50, 'live demo ↗', { fam: 'mono', fill: 'greenInk', anchor: 'end' })
     : text(x1, 50, 'repo ↗', { fam: 'mono', fill: 'greenInk', anchor: 'end' });
   let cx = x0, chips = '';
   for (const c of p.chips) {
@@ -337,13 +337,13 @@ function labCard(repos) {
     chips += ch.svg; cx += ch.w + 8;
   }
   const body = [
-    `<rect x="8" y="8" width="${w - 16}" height="${h - 16}" rx="16" fill="${P.surface}" stroke="${P.pink}" stroke-opacity=".55" stroke-width="2" stroke-dasharray="9 7"/>`,
-    text(x0, 54, lab.title, { size: 32, weight: 700, fill: 'pink' }),
+    `<rect x="8" y="8" width="${w - 16}" height="${h - 16}" rx="16" fill="${P.surface}" stroke="${P.green}" stroke-opacity=".5" stroke-width="2" stroke-dasharray="9 7"/>`,
+    text(x0, 54, lab.title, { size: 32, weight: 700, fill: 'green' }),
     text(x1, 50, '$ ls', { fam: 'mono', fill: 'subtleInk', anchor: 'end' }),
     lines.map((l, i) => text(x0, 90 + i * 26, l, { fill: 'muted' })).join(''),
     chips,
     text(x0, 222, `${repos.length} repos · notebooks, side projects, coursework`, { fam: 'mono', fill: 'subtleInk' }),
-    `<g class="ex">${text(x0, 274, 'expand ▸', { fam: 'mono', fill: 'pinkInk', weight: 600 })}</g>`,
+    `<g class="ex">${text(x0, 274, 'expand ▸', { fam: 'mono', fill: 'greenInk', weight: 600 })}</g>`,
   ].join('\n');
   return doc({
     w, h, radius: 20, border: false, body, css: '@keyframes nudge{0%,70%,100%{transform:translate(0,0)}80%{transform:translate(6px,0)}}', motion: '.ex{animation:nudge 4s ease-in-out infinite}',
@@ -360,9 +360,9 @@ function footer() {
     return { p: (i / N) * 100, x: cx + rx * Math.cos(a), y: cy + ry * Math.sin(a) };
   });
   const lw = measure(loopLabel, 22, 'mono') + 30;
-  const body = `<ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}" fill="none" stroke="${P.pink}" stroke-opacity=".6" stroke-width="2.5" stroke-dasharray="8 8"/>`
+  const body = `<ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}" fill="none" stroke="${P.green}" stroke-opacity=".5" stroke-width="2.5" stroke-dasharray="8 8"/>`
     + `<rect x="${cx - lw / 2}" y="${cy - 17}" width="${lw}" height="34" rx="17" fill="${P.bg}"/>`
-    + text(cx, cy + 8, loopLabel, { fam: 'mono', size: 22, fill: 'pinkInk', anchor: 'middle', weight: 600 })
+    + text(cx, cy + 8, loopLabel, { fam: 'mono', size: 22, fill: 'greenInk', anchor: 'middle', weight: 600 })
     + `<g class="fl" transform="translate(${cx},${cy - ry})"><circle r="7" fill="${P.green}"/></g>`
     + text(cx, 120, stages.join(' → '), { fam: 'mono', fill: 'subtleInk', anchor: 'middle' });
   return doc({ w: W, h: H + 14, body, css: keyframes('fl', pts), motion: '.fl{animation:fl 7s linear infinite}', title: loopLabel, desc: `${stages.join(' → ')}, then ${loopLabel}.` });
