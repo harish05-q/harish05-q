@@ -23,7 +23,7 @@
 <tr>
 <td width="50%" valign="top" align="center">
 <a href="https://github.com/harish05-q/Trafiqon"><img src="assets/static/card-trafiqon.svg?v=a4e8048" width="100%" alt="Trafiqon: CVRP workbench: OR-Tools, annealing and a QPSO-inspired hybrid judged by one evaluator, with live replanning."></a>
-<br><sub><a href="https://github.com/harish05-q/Trafiqon">repo</a>· <a href="https://trafiqon-harish.duckdns.org/">live demo</a></sub>
+<br><sub><a href="https://github.com/harish05-q/Trafiqon">repo</a></sub>
 </td>
 <td width="50%" valign="top" align="center">
 <a href="https://github.com/harish05-q/rai"><img src="assets/static/card-rai.svg?v=6dde754" width="100%" alt="R.AI: Payment recovery agent. The LLM proposes, a deterministic policy engine decides, every action is audited."></a>
@@ -71,12 +71,12 @@
 </details>
 
 <a name="pulse"></a>
-<p align="center"><img src="assets/generated/pulse.svg?v=0e6e8b9" width="100%" alt="Commit pulse: weekly contributions over the last year drawn as a heartbeat line"></p>
-<p align="center"><img src="assets/generated/latest.svg?v=0c7a9a9" width="100%" alt="Latest pushes: the four most recently pushed repositories and their last commit"></p>
+<p align="center"><img src="assets/generated/pulse.svg?v=1653a1f" width="100%" alt="Commit pulse: weekly contributions over the last year drawn as a heartbeat line"></p>
+<p align="center"><img src="assets/generated/latest.svg?v=f3c3095" width="100%" alt="Latest pushes: the four most recently pushed repositories and their last commit"></p>
 
 <a name="stack"></a>
 <p align="center"><img src="assets/generated/stack.svg?v=8844555" width="100%" alt="Tech stack grouped by languages, backend and data, frontend, AI and LLM, infra and tooling, core CS"></p>
 <p align="center"><img src="assets/generated/cp.svg?v=792c173" width="100%" alt="Competitive programming scoreboard"></p>
 
 <p align="center"><img src="assets/static/footer.svg?v=e9a1d08" width="100%" alt="learn · repeat: diagnose, recommend, policy check, execute, observe, recover"></p>
-<p align="center"><sub>last refreshed 2026-10-30 12:22 UTC by a GitHub Action</sub></p>
+<p align="center"><sub>last refreshed 2026-10-30 22:02 UTC by a GitHub Action</sub></p>
