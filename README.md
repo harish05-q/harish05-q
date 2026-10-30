@@ -23,7 +23,7 @@
 <tr>
 <td width="50%" valign="top" align="center">
 <a href="https://github.com/harish05-q/Trafiqon"><img src="assets/static/card-trafiqon.svg?v=a4e8048" width="100%" alt="Trafiqon: CVRP workbench: OR-Tools, annealing and a QPSO-inspired hybrid judged by one evaluator, with live replanning."></a>
-<br><sub><a href="https://github.com/harish05-q/Trafiqon">repo</a></sub>
+<br><sub><a href="https://github.com/harish05-q/Trafiqon">repo</a>· <a href="https://market-iq-pi.vercel.app/">live demo</a></sub>
 </td>
 <td width="50%" valign="top" align="center">
 <a href="https://github.com/harish05-q/rai"><img src="assets/static/card-rai.svg?v=6dde754" width="100%" alt="R.AI: Payment recovery agent. The LLM proposes, a deterministic policy engine decides, every action is audited."></a>
