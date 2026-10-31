@@ -76,7 +76,7 @@
 
 <a name="stack"></a>
 <p align="center"><img src="assets/generated/stack.svg?v=8844555" width="100%" alt="Tech stack grouped by languages, backend and data, frontend, AI and LLM, infra and tooling, core CS"></p>
-<p align="center"><img src="assets/generated/cp.svg?v=693f11f" width="100%" alt="Competitive programming scoreboard"></p>
+<p align="center"><img src="assets/generated/cp.svg?v=0af1c58" width="100%" alt="Competitive programming scoreboard"></p>
 
 <p align="center"><img src="assets/static/footer.svg?v=e9a1d08" width="100%" alt="learn · repeat: diagnose, recommend, policy check, execute, observe, recover"></p>
-<p align="center"><sub>last refreshed 2026-10-31 15:59 UTC by a GitHub Action</sub></p>
+<p align="center"><sub>last refreshed 2026-10-31 16:59 UTC by a GitHub Action</sub></p>
