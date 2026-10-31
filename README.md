@@ -27,7 +27,7 @@
 </td>
 <td width="50%" valign="top" align="center">
 <a href="https://github.com/harish05-q/rai"><img src="assets/static/card-rai.svg?v=6dde754" width="100%" alt="R.AI: Payment recovery agent. The LLM proposes, a deterministic policy engine decides, every action is audited."></a>
-<br><sub><a href="https://github.com/harish05-q/rai">repo</a></sub>
+<br><sub><a href="https://github.com/harish05-q/rai">repo</a> · <a href="https://trafiqon-harish.duckdns.org/">live demo</a></sub>
 </td>
 </tr>
 <tr>
