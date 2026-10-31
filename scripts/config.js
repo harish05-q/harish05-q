@@ -75,7 +75,7 @@ export const stageOwners = {
 export const projects = [
   {
     slug: 'trafiqon', name: 'Trafiqon', repo: 'Trafiqon', anim: 'routes',
-    demo: '[[TRAFIQON_DEMO_URL]]', signature: 'execute',
+    demo: 'https://trafiqon-harish.duckdns.org/', signature: 'execute',
     description: 'CVRP workbench: OR-Tools, annealing and a QPSO-inspired hybrid judged by one evaluator, with live replanning.',
     chips: ['Python', 'FastAPI', 'OR-Tools', 'PostgreSQL', 'Next.js'],
   },
