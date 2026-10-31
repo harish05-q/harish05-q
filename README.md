@@ -22,7 +22,7 @@
 <table>
 <tr>
 <td width="50%" valign="top" align="center">
-<a href="https://github.com/harish05-q/Trafiqon"><img src="assets/static/card-trafiqon.svg?v=a4e8048" width="100%" alt="Trafiqon: CVRP workbench: OR-Tools, annealing and a QPSO-inspired hybrid judged by one evaluator, with live replanning."></a>
+<a href="https://github.com/harish05-q/Trafiqon"><img src="assets/static/card-trafiqon.svg?v=43e273a" width="100%" alt="Trafiqon: CVRP workbench: OR-Tools, annealing and a QPSO-inspired hybrid judged by one evaluator, with live replanning."></a>
 <br><sub><a href="https://github.com/harish05-q/Trafiqon">repo</a> · <a href="https://trafiqon-harish.duckdns.org/">live demo</a></sub>
 </td>
 <td width="50%" valign="top" align="center">
@@ -71,7 +71,7 @@
 </details>
 
 <a name="pulse"></a>
-<p align="center"><img src="assets/generated/pulse.svg?v=1653a1f" width="100%" alt="Commit pulse: weekly contributions over the last year drawn as a heartbeat line"></p>
+<p align="center"><img src="assets/generated/pulse.svg?v=0195cde" width="100%" alt="Commit pulse: weekly contributions over the last year drawn as a heartbeat line"></p>
 <p align="center"><img src="assets/generated/latest.svg?v=377d83a" width="100%" alt="Latest pushes: the four most recently pushed repositories and their last commit"></p>
 
 <a name="stack"></a>
@@ -79,4 +79,4 @@
 <p align="center"><img src="assets/generated/cp.svg?v=693f11f" width="100%" alt="Competitive programming scoreboard"></p>
 
 <p align="center"><img src="assets/static/footer.svg?v=e9a1d08" width="100%" alt="learn · repeat: diagnose, recommend, policy check, execute, observe, recover"></p>
-<p align="center"><sub>last refreshed 2026-10-31 11:52 UTC by a GitHub Action</sub></p>
+<p align="center"><sub>last refreshed 2026-10-31 15:59 UTC by a GitHub Action</sub></p>
