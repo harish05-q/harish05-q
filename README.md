@@ -71,7 +71,7 @@
 </details>
 
 <a name="pulse"></a>
-<p align="center"><img src="assets/generated/pulse.svg?v=27a460b" width="100%" alt="Commit pulse: weekly contributions over the last year drawn as a heartbeat line"></p>
+<p align="center"><img src="assets/generated/pulse.svg?v=629be22" width="100%" alt="Commit pulse: weekly contributions over the last year drawn as a heartbeat line"></p>
 <p align="center"><img src="assets/generated/latest.svg?v=c041423" width="100%" alt="Latest pushes: the four most recently pushed repositories and their last commit"></p>
 
 <a name="stack"></a>
@@ -79,4 +79,4 @@
 <p align="center"><img src="assets/generated/cp.svg?v=5de044e" width="100%" alt="Competitive programming scoreboard"></p>
 
 <p align="center"><img src="assets/static/footer.svg?v=e9a1d08" width="100%" alt="learn · repeat: diagnose, recommend, policy check, execute, observe, recover"></p>
-<p align="center"><sub>last refreshed 2026-11-14 22:05 UTC by a GitHub Action</sub></p>
+<p align="center"><sub>last refreshed 2026-11-15 05:28 UTC by a GitHub Action</sub></p>
