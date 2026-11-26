@@ -2,7 +2,7 @@
 <p align="center"><img src="assets/static/hero.svg?v=0c5affa" width="100%" alt="Harish Pal. Systems &amp; Backend Engineer · Generative / Agentic AI. I build systems that diagnose, decide and recover safely."></p>
 
 <p align="center">
-  <a href="https://harish-pal-portfolio.vercel.app/"><img src="assets/static/btn-portfolio.svg?v=d71e878" alt="Portfolio" height="36" width="134"></a>
+  <a href="https://portfolio-three-jade-97.vercel.app/"><img src="assets/static/btn-portfolio.svg?v=d71e878" alt="Portfolio" height="36" width="134"></a>
   <a href="https://www.linkedin.com/in/harish0501/"><img src="assets/static/btn-linkedin.svg?v=f30f3ac" alt="LinkedIn" height="36" width="125"></a>
   <a href="mailto:harishpal0501@gmail.com"><img src="assets/static/btn-email.svg?v=4d160cd" alt="Email" height="36" width="98"></a>
   <a href="https://leetcode.com/u/harish_60/"><img src="assets/static/btn-leetcode.svg?v=480ad21" alt="LeetCode" height="36" width="125"></a>
@@ -71,12 +71,12 @@
 </details>
 
 <a name="pulse"></a>
-<p align="center"><img src="assets/generated/pulse.svg?v=d1f40d8" width="100%" alt="Commit pulse: weekly contributions over the last year drawn as a heartbeat line"></p>
-<p align="center"><img src="assets/generated/latest.svg?v=4f68de4" width="100%" alt="Latest pushes: the four most recently pushed repositories and their last commit"></p>
+<p align="center"><img src="assets/generated/pulse.svg?v=8396e2f" width="100%" alt="Commit pulse: weekly contributions over the last year drawn as a heartbeat line"></p>
+<p align="center"><img src="assets/generated/latest.svg?v=25f9b10" width="100%" alt="Latest pushes: the four most recently pushed repositories and their last commit"></p>
 
 <a name="stack"></a>
 <p align="center"><img src="assets/generated/stack.svg?v=8844555" width="100%" alt="Tech stack grouped by languages, backend and data, frontend, AI and LLM, infra and tooling, core CS"></p>
 <p align="center"><img src="assets/generated/cp.svg?v=0d4cdb7" width="100%" alt="Competitive programming scoreboard"></p>
 
 <p align="center"><img src="assets/static/footer.svg?v=e9a1d08" width="100%" alt="learn · repeat: diagnose, recommend, policy check, execute, observe, recover"></p>
-<p align="center"><sub>last refreshed 2026-11-25 21:18 UTC by a GitHub Action</sub></p>
+<p align="center"><sub>last refreshed 2026-11-26 07:25 UTC by a GitHub Action</sub></p>
