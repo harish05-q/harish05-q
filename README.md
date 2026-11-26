@@ -2,7 +2,7 @@
 <p align="center"><img src="assets/static/hero.svg?v=0c5affa" width="100%" alt="Harish Pal. Systems &amp; Backend Engineer · Generative / Agentic AI. I build systems that diagnose, decide and recover safely."></p>
 
 <p align="center">
-  <a href="https://portfolio-three-jade-97.vercel.app/"><img src="assets/static/btn-portfolio.svg?v=d71e878" alt="Portfolio" height="36" width="134"></a>
+  <a href="https://harish-pal-portfolio.vercel.app/"><img src="assets/static/btn-portfolio.svg?v=d71e878" alt="Portfolio" height="36" width="134"></a>
   <a href="https://www.linkedin.com/in/harish0501/"><img src="assets/static/btn-linkedin.svg?v=f30f3ac" alt="LinkedIn" height="36" width="125"></a>
   <a href="mailto:harishpal0501@gmail.com"><img src="assets/static/btn-email.svg?v=4d160cd" alt="Email" height="36" width="98"></a>
   <a href="https://leetcode.com/u/harish_60/"><img src="assets/static/btn-leetcode.svg?v=480ad21" alt="LeetCode" height="36" width="125"></a>
